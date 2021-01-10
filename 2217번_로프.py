@@ -25,5 +25,9 @@ for i in range(1, N):
     else:
         w = temp
     
+    # if temp > w:
+    #     w = temp
+
+
 
 print(w)
