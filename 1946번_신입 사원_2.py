@@ -20,7 +20,7 @@ for i in range(T):
         if case[i][k][1] > min_value:
             check = False # 선발 불가 
         else:
-           min_value = case[i][flag][1] # 가장 작은 값 갱신
+           min_value = case[i][k][1] # 가장 작은 값 갱신
         if check == True: # 선발 가능
             count += 1
     print(count)
