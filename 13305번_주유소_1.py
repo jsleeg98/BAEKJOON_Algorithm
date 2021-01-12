@@ -16,7 +16,7 @@ result = 0
 # 최소 기름 값 초기화
 m = costs[0]
 
-for i in range(N - 1):
+for i in range(0, N - 1):
     if m > costs[i]:
         m = costs[i]
     result += m * roads[i]
