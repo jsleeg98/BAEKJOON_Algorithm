@@ -35,11 +35,11 @@ else:
                 func([i, j], problem)
                 count += 1
 
-    
-if r*c >= 9:   
+# 행렬이 같아졌는지 확인   
+if r < 3 or c < 3:
     if problem != answer:
         count = -1
 
-
+# count 출력
 print(count)
         
