@@ -10,8 +10,6 @@ cards = []
 for _ in range(N):
     heapq.heappush(cards, int(sys.stdin.readline().rstrip()))
 
-
-heapq.heapify(cards)
 # 오름차순 정렬
 # cards.sort()
 
