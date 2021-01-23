@@ -6,8 +6,8 @@ height, width = map(int, sys.stdin.readline().split())
 # 결과
 result = 0
 
-# height가 4보다 작은 경우
-# width가 7보다 작은 경우
+# height가 3 이상인 경우
+# width가 7 이상인 경우
 if height >=3 and width >= 7:
     result = (width - 7) + 5
 # 나이트가 움직일 수 없는 경우
